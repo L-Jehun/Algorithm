@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/zulu-8"/>
+	<classpathentry kind="src" path="SWEA"/>
+	<classpathentry kind="src" path="BaekJoon"/>
+	<classpathentry kind="src" path="Jungol"/>
+	<classpathentry kind="src" path="Cospro"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

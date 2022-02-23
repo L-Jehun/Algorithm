@@ -1,15 +1,13 @@
-// You may use import as below.
-//import java.util.*;
-
 class cos_1_1 {
     public long solution(long num) {
         num++;
-        long digit=1;
+        int digit=1;;
         while(num/digit%10==0) {
         	num+=digit;
         	digit*=10;
         }
-    	return num;
+        
+        return num;
     }
 
     // The following is main method to output testcase.

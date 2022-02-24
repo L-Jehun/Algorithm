@@ -5,6 +5,34 @@ class cos_1_2 {
     public int solution(int n) {
         // Write code here.
         int answer = 0;
+        int[] dx = {0,1,0,-1};
+        int[] dy = {1,0,-1,0};
+        int[][] arr = new int[n][n];
+        int x = 0;
+        int y = 0;
+        int idx = 0;
+        int num = 1 ;
+
+        for(int i=0 ; i<n; i++) {
+        	for(int j=0; j<n; j++) {
+        		arr[x][y]=num++;
+        		
+        		if(x+dx[idx]<0|| x+dx[idx]>=n || y+dy[idx]<0 || y+dy[idx]>=n || arr[x+dx[idx]][y+dy[idx]]!=0) {
+        			idx++;
+        			if(idx ==4) idx=0;
+        		}
+        		x+=dx[idx];
+        		y+=dy[idx];
+        	}
+        }
+        for(int i=0;i<n;i++) {
+        	for(int j=0;j<n;j++) {
+        		System.out.print(arr[i][j]);
+        	}
+        	System.out.println();
+        }
+        
+        
         return answer;
     }
 

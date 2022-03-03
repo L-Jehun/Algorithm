@@ -5,5 +5,6 @@
 	<classpathentry kind="src" path="BaekJoon"/>
 	<classpathentry kind="src" path="Jungol"/>
 	<classpathentry kind="src" path="Cospro"/>
+	<classpathentry kind="src" path="Etc"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
